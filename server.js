@@ -1,7 +1,7 @@
-const express = require("express");
-const axios = require("axios");
-require("dotenv").config();
-const fs = require("fs");
+import express from "express";
+import axios from "axios";
+import dotenv from "dotenv";
+dotenv.config();
 const app = express();
 const port = 8080;
 
@@ -10,10 +10,21 @@ const API_KEY = process.env.GOOGLE_API_KEY; // Ensure this is correctly set in y
 const NLP_URL = `https://language.googleapis.com/v1/documents:analyzeSentiment?key=${API_KEY}`;
 const NLP_ENTITY_URL = `https://language.googleapis.com/v1/documents:analyzeEntities?key=${API_KEY}`;
 const NLP_SYNTAX_URL = `https://language.googleapis.com/v1/documents:analyzeSyntax?key=${API_KEY}`;
+const DATA_URL = "https://github.com/alextrandev/junction_2024_challenge/raw/main/db.json";
 
-const BASE_API_URL = `localhost:3001`
-// Read the data from db.json
-const data = JSON.parse(fs.readFileSync("./db.json", "utf-8"));
+// Function to fetch data from the URL
+async function fetchData() {
+  try {
+    const response = await axios.get(DATA_URL);
+    return response.data;
+  } catch (error) {
+    console.error("Error fetching data:", error.message);
+    return null;
+  }
+}
+
+const data = await fetchData(); // Fetch data each time the route is hit
+
 // Function to analyze text using Google Cloud NLP API
 async function analyzeDocument(text, analysisType) {
   const document = {
@@ -219,6 +230,10 @@ async function calculateMatchScore(jobSeeker, jobPosition) {
 
 // API to get all job seekers and their match score for the recruiter (company)
 app.get("/recruiter-match", async (req, res) => {
+  const data = await fetchData(); // Fetch data asynchronously
+  if (!data) {
+    return res.status(500).json({ error: "Failed to fetch data" });
+  }
   try {
     const jobSeekersWithMatch = await Promise.all(
       data.JobSeeker.map(async (jobSeeker) => {
@@ -251,6 +266,10 @@ app.get("/recruiter-match", async (req, res) => {
 
 // API to get a job seeker's match score with all companies
 app.get("/jobseeker-match/:id", async (req, res) => {
+  const data = await fetchData(); // Fetch data asynchronously
+  if (!data) {
+    return res.status(500).json({ error: "Failed to fetch data" });
+  }
   const jobSeekerId = req.params.id;
   const jobSeeker = data.JobSeeker.find((seeker) => seeker.id === jobSeekerId);
 
