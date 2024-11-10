@@ -1,0 +1,567 @@
+{
+    "Company": [
+      {
+        "id": "1",
+        "name": "CompanyName",
+        "history": "Established in 1990, CompanyName has been a leader in technology solutions...",
+        "businessId": "123456789",
+        "workStyles": [
+          "Collaborative",
+          "Independent",
+          "Agile"
+        ],
+        "values": [
+          "Innovation",
+          "Integrity",
+          "Customer Focus"
+        ],
+        "workingConditions": {
+          "flexibility": [
+            "Flexible Hours",
+            "Fixed Schedule",
+            "Freelance"
+          ],
+          "location": [
+            "Hybrid",
+            "Remote",
+            "Onsite"
+          ],
+          "culture": "Open and inclusive workplace with a focus on teamwork and growth",
+          "mentalHealthSupport": true
+        },
+        "jobPosition": {
+          "title": "Software Development Technical Lead",
+          "salary": {
+            "min": 6000,
+            "max": 8000,
+            "currency": "EUR"
+          },
+          "benefits": [
+            "Health Insurance",
+            "Remote Work Stipend",
+            "Paid Vacation"
+          ],
+          "selectionCriteria": {
+            "skills": [
+              "JavaScript",
+              "React",
+              "Node.js",
+              "AWS"
+            ],
+            "experience": "5+ years",
+            "rating": 4.5,
+            "location": {
+              "postcode": "00100",
+              "radius": "10 km"
+            }
+          }
+        }
+      },
+      {
+        "id": "2",
+        "name": "TechInnovators",
+        "history": "TechInnovators has been revolutionizing the tech world since 2005 with cutting-edge software solutions.",
+        "businessId": "987654321",
+        "workStyles": [
+          "Innovative",
+          "Remote First"
+        ],
+        "values": [
+          "Sustainability",
+          "Growth",
+          "Collaboration"
+        ],
+        "workingConditions": {
+          "flexibility": [
+            "Flexible Hours",
+            "Work from Home"
+          ],
+          "location": [
+            "Remote",
+            "Onsite"
+          ],
+          "culture": "Dynamic and fast-paced environment focused on innovation and sustainability.",
+          "mentalHealthSupport": true
+        },
+        "jobPosition": {
+          "title": "Data Scientist",
+          "salary": {
+            "min": 4500,
+            "max": 6000,
+            "currency": "EUR"
+          },
+          "benefits": [
+            "Stock Options",
+            "Remote Work Stipend",
+            "Flexible Work Hours"
+          ],
+          "selectionCriteria": {
+            "skills": [
+              "Python",
+              "Machine Learning",
+              "SQL",
+              "Data Visualization"
+            ],
+            "experience": "3+ years",
+            "rating": 4.2,
+            "location": {
+              "postcode": "1200",
+              "radius": "20 km"
+            }
+          }
+        }
+      },
+      {
+        "id": "3",
+        "name": "HealthTech Corp",
+        "history": "HealthTech Corp is a leader in the digital health sector, providing innovative solutions for healthcare professionals.",
+        "businessId": "456789123",
+        "workStyles": [
+          "Remote",
+          "Collaborative"
+        ],
+        "values": [
+          "Wellness",
+          "Compassion",
+          "Health"
+        ],
+        "workingConditions": {
+          "flexibility": [
+            "Flexible Hours",
+            "Work from Home"
+          ],
+          "location": [
+            "Remote",
+            "Hybrid"
+          ],
+          "culture": "Committed to improving healthcare through technology with a focus on work-life balance.",
+          "mentalHealthSupport": true
+        },
+        "jobPosition": {
+          "title": "Healthcare Product Manager",
+          "salary": {
+            "min": 5000,
+            "max": 7000,
+            "currency": "EUR"
+          },
+          "benefits": [
+            "Health Insurance",
+            "Work-Life Balance Stipend",
+            "Paid Time Off"
+          ],
+          "selectionCriteria": {
+            "skills": [
+              "Product Management",
+              "Agile",
+              "Healthcare Technology",
+              "Communication"
+            ],
+            "experience": "5+ years",
+            "rating": 4.7,
+            "location": {
+              "postcode": "1001",
+              "radius": "50 km"
+            }
+          }
+        }
+      },
+      {
+        "id": "4",
+        "name": "GreenTech Solutions",
+        "history": "GreenTech Solutions is at the forefront of creating environmentally sustainable technologies.",
+        "businessId": "234567890",
+        "workStyles": [
+          "Flexible",
+          "Innovative"
+        ],
+        "values": [
+          "Sustainability",
+          "Innovation",
+          "Teamwork"
+        ],
+        "workingConditions": {
+          "flexibility": [
+            "Remote",
+            "Flexible Hours"
+          ],
+          "location": [
+            "Hybrid",
+            "Onsite"
+          ],
+          "culture": "GreenTech Solutions fosters creativity, growth, and environmental responsibility.",
+          "mentalHealthSupport": true
+        },
+        "jobPosition": {
+          "title": "Environmental Engineer",
+          "salary": {
+            "min": 4000,
+            "max": 6000,
+            "currency": "EUR"
+          },
+          "benefits": [
+            "Health Insurance",
+            "Paid Vacation",
+            "Green Commute Incentives"
+          ],
+          "selectionCriteria": {
+            "skills": [
+              "Environmental Engineering",
+              "Sustainability",
+              "Project Management"
+            ],
+            "experience": "3+ years",
+            "rating": 4.1,
+            "location": {
+              "postcode": "1500",
+              "radius": "15 km"
+            }
+          }
+        }
+      },
+      {
+        "id": "5",
+        "name": "FinServe Ltd.",
+        "history": "FinServe Ltd. is a financial services company offering a wide range of financial products.",
+        "businessId": "112233445",
+        "workStyles": [
+          "Team-Oriented",
+          "Remote"
+        ],
+        "values": [
+          "Integrity",
+          "Customer Service",
+          "Excellence"
+        ],
+        "workingConditions": {
+          "flexibility": [
+            "Flexible Hours",
+            "Work from Home"
+          ],
+          "location": [
+            "Remote",
+            "Hybrid"
+          ],
+          "culture": "A professional, yet friendly environment where employees are encouraged to excel.",
+          "mentalHealthSupport": true
+        },
+        "jobPosition": {
+          "title": "Financial Analyst",
+          "salary": {
+            "min": 4500,
+            "max": 6500,
+            "currency": "EUR"
+          },
+          "benefits": [
+            "Health Insurance",
+            "Performance Bonuses",
+            "Training and Development"
+          ],
+          "selectionCriteria": {
+            "skills": [
+              "Financial Modeling",
+              "Excel",
+              "Data Analysis"
+            ],
+            "experience": "3+ years",
+            "rating": 4.3,
+            "location": {
+              "postcode": "2000",
+              "radius": "30 km"
+            }
+          }
+        }
+      }
+    ],
+    "JobSeeker": [
+      {
+        "id": "JS12345",
+        "workStyles": [
+          "Collaborative",
+          "Remote Preferred"
+        ],
+        "values": [
+          "Innovation",
+          "Work-Life Balance"
+        ],
+        "workingConditions": {
+          "flexibility": [
+            "Remote",
+            "Flexible Hours"
+          ],
+          "location": {
+            "preferred": "Remote",
+            "acceptance": [
+              "Hybrid",
+              "Onsite within 20 km"
+            ]
+          },
+          "culture": "Diverse and inclusive environment",
+          "salaryExpectations": {
+            "min": 5500,
+            "max": 7500,
+            "currency": "EUR"
+          },
+          "benefitExpectations": [
+            "Health Insurance",
+            "Gym Membership",
+            "Stock Options"
+          ]
+        },
+        "headline": "Experienced Full Stack Developer",
+        "positionHistory": [
+          {
+            "position": "Full Stack Developer",
+            "company": "PreviousCompany",
+            "duration": "2 years",
+            "skills": [
+              "JavaScript",
+              "React",
+              "Node.js"
+            ]
+          }
+        ],
+        "skills": [
+          "JavaScript",
+          "React",
+          "Node.js",
+          "AWS"
+        ],
+        "experience": "5+ years",
+        "distance": "15 km"
+      },
+      {
+        "id": "JS67890",
+        "workStyles": [
+          "Remote Preferred",
+          "Independent"
+        ],
+        "values": [
+          "Innovation",
+          "Customer-Centric"
+        ],
+        "workingConditions": {
+          "flexibility": [
+            "Remote",
+            "Flexible Hours"
+          ],
+          "location": {
+            "preferred": "Remote",
+            "acceptance": [
+              "Hybrid",
+              "Onsite within 50 km"
+            ]
+          },
+          "culture": "Dynamic and customer-focused environment",
+          "salaryExpectations": {
+            "min": 4500,
+            "max": 6500,
+            "currency": "EUR"
+          },
+          "benefitExpectations": [
+            "Health Insurance",
+            "Paid Vacation",
+            "Stock Options"
+          ]
+        },
+        "headline": "Senior Software Engineer",
+        "positionHistory": [
+          {
+            "position": "Software Engineer",
+            "company": "TechCompany",
+            "duration": "3 years",
+            "skills": [
+              "JavaScript",
+              "React",
+              "Node.js"
+            ]
+          }
+        ],
+        "skills": [
+          "JavaScript",
+          "Node.js",
+          "AWS"
+        ],
+        "experience": "6+ years",
+        "distance": "20 km"
+      },
+      {
+        "id": "JS22345",
+        "workStyles": [
+          "Collaborative",
+          "Remote Preferred"
+        ],
+        "values": [
+          "Sustainability",
+          "Innovation"
+        ],
+        "workingConditions": {
+          "flexibility": [
+            "Flexible Hours",
+            "Work from Home"
+          ],
+          "location": {
+            "preferred": "Hybrid",
+            "acceptance": [
+              "Remote",
+              "Onsite within 10 km"
+            ]
+          },
+          "culture": "Inclusive, creative, and innovative",
+          "salaryExpectations": {
+            "min": 4000,
+            "max": 6000,
+            "currency": "EUR"
+          },
+          "benefitExpectations": [
+            "Health Insurance",
+            "Gym Membership"
+          ]
+        },
+        "headline": "Junior Data Scientist",
+        "positionHistory": [
+          {
+            "position": "Data Analyst",
+            "company": "PreviousTech",
+            "duration": "1 year",
+            "skills": [
+              "Python",
+              "SQL",
+              "Data Analysis"
+            ]
+          }
+        ],
+        "skills": [
+          "Python",
+          "Machine Learning",
+          "SQL"
+        ],
+        "experience": "2+ years",
+        "distance": "10 km"
+      },
+      {
+        "id": "JS33456",
+        "workStyles": [
+          "Innovative",
+          "Collaborative"
+        ],
+        "values": [
+          "Teamwork",
+          "Customer-Centric"
+        ],
+        "workingConditions": {
+          "flexibility": [
+            "Remote",
+            "Flexible Hours"
+          ],
+          "location": {
+            "preferred": "Hybrid",
+            "acceptance": [
+              "Onsite within 30 km"
+            ]
+          },
+          "culture": "Team-oriented and customer-focused",
+          "salaryExpectations": {
+            "min": 5000,
+            "max": 7000,
+            "currency": "EUR"
+          },
+          "benefitExpectations": [
+            "Health Insurance",
+            "Paid Time Off",
+            "Performance Bonus"
+          ]
+        },
+        "headline": "Project Manager",
+        "positionHistory": [
+          {
+            "position": "Project Coordinator",
+            "company": "TechFirm",
+            "duration": "4 years",
+            "skills": [
+              "Project Management",
+              "Agile",
+              "Team Leadership"
+            ]
+          }
+        ],
+        "skills": [
+          "Project Management",
+          "Agile",
+          "Scrum"
+        ],
+        "experience": "5+ years",
+        "distance": "25 km"
+      },
+      {
+        "id": "JS44567",
+        "workStyles": [
+          "Remote",
+          "Independent"
+        ],
+        "values": [
+          "Work-Life Balance",
+          "Growth"
+        ],
+        "workingConditions": {
+          "flexibility": [
+            "Work from Home",
+            "Flexible Hours"
+          ],
+          "location": {
+            "preferred": "Remote",
+            "acceptance": [
+              "Hybrid"
+            ]
+          },
+          "culture": "Independent work with opportunities for professional growth",
+          "salaryExpectations": {
+            "min": 4000,
+            "max": 6000,
+            "currency": "EUR"
+          },
+          "benefitExpectations": [
+            "Health Insurance",
+            "Paid Vacation",
+            "Stock Options"
+          ]
+        },
+        "headline": "Marketing Specialist",
+        "positionHistory": [
+          {
+            "position": "Marketing Assistant",
+            "company": "BrandTech",
+            "duration": "2 years",
+            "skills": [
+              "Digital Marketing",
+              "Content Strategy",
+              "SEO"
+            ]
+          }
+        ],
+        "skills": [
+          "Digital Marketing",
+          "SEO",
+          "Content Creation"
+        ],
+        "experience": "3+ years",
+        "distance": "30 km"
+      }
+    ],
+    "Administration": [
+      {
+        "id": "1",
+        "login": {
+          "username": "admin_user",
+          "password": "securely_hashed_password"
+        }
+      }
+    ],
+    "Employee": [
+      {
+        "id": "E56789",
+        "hashcode": "abc123hash",
+        "company": "CompanyName"
+      }
+    ]
+  }
+  
