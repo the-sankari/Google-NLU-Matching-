@@ -3,7 +3,9 @@ import axios from "axios";
 import dotenv from "dotenv";
 dotenv.config();
 const app = express();
-const port = 8080;
+
+// Use process.env.PORT for the Vercel environment
+const port = process.env.PORT || 8080;
 
 // Google Cloud NLP API Key and URL
 const API_KEY = process.env.GOOGLE_API_KEY; // Ensure this is correctly set in your .env file
@@ -24,7 +26,6 @@ async function fetchData() {
 }
 
 const data = await fetchData(); // Fetch data each time the route is hit
-
 // Function to analyze text using Google Cloud NLP API
 async function analyzeDocument(text, analysisType) {
   const document = {
@@ -301,7 +302,11 @@ app.get("/jobseeker-match/:id", async (req, res) => {
   }
 });
 
-// Start the server
+// Start the server (Vercel handles this dynamically)
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(
+    `Server is running on ${
+      process.env.VERCEL_URL || `http://localhost:${port}`
+    }`
+  );
 });
