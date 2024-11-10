@@ -209,4 +209,3 @@ http://localhost:8080/jobseeker-match/JS22345
 - open browser and navigate to http://localhost:8080/jobseeker-match/JS22345
 - you can also use postman to test the API
 - you can also use curl to test the API
-
